@@ -1,0 +1,68 @@
+
+
+.no-margin{
+	margin: 0px;
+}
+
+.thumb {
+	border-radius: 9999px;
+	margin: 0 auto;
+	max-height:300px;
+}
+
+.myself {
+	font-size:18px;
+	padding:35px 0;
+}
+
+.info-container {
+	margin-bottom:20px;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.site-footer{
+	background-color: #222;
+	color: #fff;
+	margin-top: 50px;
+	padding:25px 0;
+}
+
+.bottom-footer{
+	border-top: 1px solid #b2b2b2;
+	margin-top: 1px;
+	padding-top: 1px;
+	color: #b2b2b2;
+}
+
+.footer-nav{
+	text-align: right;
+	list-style: none;
+}
+
+.footer-nav li{
+	display: inline;
+}
+
+.footer-nav li:not(:first-child):before{
+	content: '|';
+	padding: 0px 10px;
+}
+
+.footer-nav a{
+	color: #b2b2b2;
+}
+
+.footer-nav a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+#contact{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 120%;
+}
+
