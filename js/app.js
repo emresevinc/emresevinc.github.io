@@ -27,7 +27,7 @@ $(document).ready(function () {
 		snippet: false
 	}, function(e) {
 		$(e).find('div.rssBody').vTicker({
-			showItems: 3			
+			showItems: 4			
 		});
 	});
 });
