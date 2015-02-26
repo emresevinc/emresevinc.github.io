@@ -1,7 +1,7 @@
 $(document).ready(function(){
         $("#divContact").animate({
-            left: '350px',
-            height: '100px',
-            width: '500px'
+            left: '15%',
+            height: '15%',
+            width: '100%'
         });
 });
