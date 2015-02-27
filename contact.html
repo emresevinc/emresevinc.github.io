@@ -11,9 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" type="image/x-icon" href="img/icon.ico">
-	<style>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
 
-</style>
 </head>
 
 <body>
@@ -40,10 +39,10 @@
 </nav>
 
 
-<div style="width:250px;margin-left:80px;"><p style="text-align:center; font-size:200%;font-weight:bolder;"><marquee behavior="alternate">CONTACT ME</marquee></p><br></div>
+<div id="divForMarquee"><p id="pForMarquee"><marquee behavior="alternate">CONTACT ME</marquee></p><br></div>
 
 
-<div class="col-xs-8" id="divContact" style="height:10px;width:10px;position:absolute;">
+<div class="col-xs-12" id="divContact" style="height:10px;width:10px;position:absolute;">
 <pre  id="contact">
 <p class="fa fa-facebook"><b> Facebook:</b> <a href="https://www.facebook.com/emre.sevinc.566" target="_blank">  www.facebook.com/emre.sevinc.566</a></p>
 <p class="glyphicon glyphicon-envelope"><b> Mail:</b> <a href="mailto:emresevinc10@gmail.com" target="_blank">emresevinc10@gmail.com</a></p>
@@ -51,7 +50,11 @@
 <p class="fa fa-user"><b> Blog: </b><a href="http://eesevinc.blogspot.com.tr" target="_blank">   eesevinc.blogspot.com.tr</a></p>
 </pre>
 </div>
-<div style="height:350px;"></div>
+<br>
+
+<div id="divForMarquee" style="margin-top:150px;"><p id="pForMarquee"><marquee behavior="alternate">WHERE AM I?</marquee></p><br></div>
+<div id= "map-canvas" >
+</div>
 
 
 
@@ -82,6 +85,8 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/forContactHTML.js"></script>
+	<script src="js/mapForContact.js"></script>
+
 
 </body>
 </hmtl>
