@@ -26,7 +26,6 @@
 .site-footer{
 	background-color: #222;
 	color: #fff;
-	margin-top: 50px;
 	padding:25px 0;
 }
 
@@ -61,8 +60,9 @@
 }
 
 #contact{
-	padding-left:10px;"
 	font-weight: bolder;
+	font-size : 16px;
+	background-color: #FFFACD;
 }
 
 
@@ -83,23 +83,21 @@
 }
 
  #map-canvas {
-    width: 400px;
-    height: 220px;
-    margin-left: 30px;
-    background-color: #CCC;
-    margin-top:-60px;
+    width:  100%;
+    height: 400px;
+    background-color: #CCC;;
   }
 
  #divForMarquee{
-    width : 250px;
-    margin-left : 80px;
+    width : 60%;
+    margin-left : 10%;
+    margin-top : 2%;
   }
 
  #pForMarquee{
     text-align:center;
-    font-size:200%;
+    font-size:150%;
     font-weight:bolder;
-text-color: white;
   }
 
 #divContact{
